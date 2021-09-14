@@ -1,4 +1,4 @@
-1) Create Springboot Application 
+ 1) Create Springboot Application 
 2) JPA repositories
 3) Spring Cloud Config Server
 4) Swagger Add
