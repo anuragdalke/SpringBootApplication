@@ -5,11 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 
 
-@SpringBootApplication
 @ConfigurationProperties
+@SpringBootApplication
+@EnableSwagger2
 public class SpringBootStarter {
 
 	public static void main(String[] args) {
